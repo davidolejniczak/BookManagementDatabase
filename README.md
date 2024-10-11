@@ -1,6 +1,6 @@
 # Book Inventory Management System
 
-This project is a simple web-based Book Inventory Management System built using **Flask** as the web framework and **SQLite** as the database. It allows users to manage a collection of books by adding, filtering, exporting, and deleting entries from the inventory.
+This project is a simple web-based Book Inventory Management System built using **Flask** as the web framework and **SQLite** as the database. It allows users to manage a collection of books by adding, filtering, exporting, entries from the inventory.
 
 ## Features
 - Add new books with required fields like title, author, genre, publication date, and ISBN.
@@ -14,7 +14,7 @@ This project is a simple web-based Book Inventory Management System built using 
 ## Setup and Installation
 
 ### Prerequisites
-- **Python 3.x**: Ensure you have Python 3.x installed. Download from the [official Python website](https://www.python.org/downloads/).
+- **Python 3**: Ensure you have Python 3 installed.
 - **Flask**: Flask will be used to run the web server.
 
 ### Step 1: Clone the Repository
