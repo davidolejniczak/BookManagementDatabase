@@ -18,7 +18,10 @@ This project is a simple web-based Book Inventory Management System built using 
 - **Flask**: Flask will be used to run the web server.
 
 ### Step 1: Clone the Repository
-Clone this repository to your local machine and cd to: book_inventory
+Clone this repository to your local machine and cd to:
+```bash
+cd BookManagementDatabase
+```
 
 ### Step 2: Ensure Flask is installed 
 Please ensure Flask is installed to run it. If not instead here is the command:
@@ -60,3 +63,5 @@ http://127.0.0.1:5000/
 - Click the **Clear All Books** button to delete all books from the inventory. 
 - **Warning**: This action cannot be undone.
 
+## Design decisions or challenges
+During development, I chose Flask as the web framework for its simplicity, which is ideal for a project like this. SQLite was selected as the database because it’s serverless, and easy to integrate with Flask, making it the perfect choice for this project. One challenge I faced was ensuring efficient database connections and properly handling validation, especially for the ISBN field. It took me a while to find a way but I used regular expressions to ensure only valid formats were accepted. For the front-end, I decided to use Bootstrap as it provides a clean, responsive design with minimal custom CSS. This really helped me as I do not have deep knowledge in front-end devoplement.
